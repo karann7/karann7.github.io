@@ -87,7 +87,9 @@ a {
   border-style: none;
   border-top-width: 10px;
   border-right-width: 10px;
-  background-color: #30e2a9;
+  background-image: url('../images/pexels-photo-90807.jpeg');
+  background-position: 0px 0px;
+  background-size: cover;
 }
 
 .span {
@@ -101,8 +103,8 @@ a {
   margin-left: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1em solid #333;
-  background-color: #fff;
+  border: 1em solid #fff;
+  background-color: #ee6352;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -114,7 +116,7 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Lato, sans-serif;
-  color: #ee6352;
+  color: #000;
   font-size: 42px;
   font-weight: 300;
 }
@@ -123,7 +125,7 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Lato, sans-serif;
-  color: #ee6352;
+  color: #000;
   font-weight: 300;
 }
 
@@ -722,9 +724,15 @@ a {
   .span {
     width: 70%;
   }
+  .projects-p {
+    margin-top: 4rem;
+  }
   .dropdown-toggle-2 {
     position: static;
     width: 150px;
+  }
+  .container-4 {
+    padding-top: 4rem;
   }
   .heading-7 {
     width: 80%;
@@ -734,6 +742,22 @@ a {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+  }
+  .div-block-5 {
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .div-block-6 {
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .div-block-7 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -746,17 +770,20 @@ a {
   }
   .jumbo {
     overflow: hidden;
-    height: 90vh;
+    height: 50vh;
     margin-bottom: 0rem;
     padding-top: 0em;
-    background-image: none;
+    background-image: url('../images/pexels-photo-90807.jpeg');
+    background-position: -56px 0px;
+    background-size: cover;
   }
   .span {
     position: relative;
-    top: 50%;
-    width: 100%;
+    top: 35%;
+    width: 95%;
     margin-top: 0px;
     border-width: 10px;
+    border-color: #fff;
     background-color: #ee6352;
   }
   .greeting-heading {
